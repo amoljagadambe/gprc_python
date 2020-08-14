@@ -3,8 +3,7 @@ Basic gPRC introduction and implementation for python.
 
 To generate RPC classes(all files are located in a single folder and the commands are run in that same folder.)::
 
-    $ pip install grpcio
-    $ pip install grpcio-tools
+    $ pip install -r requirements.txt
     $ python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. calculator.proto
 
 
