@@ -1,4 +1,4 @@
-# gprc_python(Calculator Program)
+# grpc_python(Calculator Program)
 Basic gPRC introduction and implementation for python. 
 
 To generate RPC classes(all files are located in a single folder and the commands are run in that same folder.)::
